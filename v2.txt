@@ -1,0 +1,11 @@
+discutido a UML do problema
+Modelagem do projeto
+nova UML
+Criação das classes utilizando engenharia de software
+Classes na forma canonica
+Utilizando Fábrica e encapsulamento
+Geração da dll das classes
+Geração dos testes funcionais e Unitários
+Geração da documentação
+
+Commit inicial: Classes na forma canonica, metodo de fabrica, teste funcionais e unitarios, doc e dll
