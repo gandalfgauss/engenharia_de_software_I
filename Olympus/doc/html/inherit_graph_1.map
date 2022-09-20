@@ -1,0 +1,12 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" title=" " alt="" coords="5,224,73,251"/>
+<area shape="rect" id="node2" href="$class_country_adm.html" title=" " alt="" coords="166,5,261,32"/>
+<area shape="rect" id="node3" href="$class_country_adm_update_screen.html" title=" " alt="" coords="125,56,301,83"/>
+<area shape="rect" id="node4" href="$class_country_user_modality_medal_screen.html" title=" " alt="" coords="124,107,303,149"/>
+<area shape="rect" id="node5" href="$class_country_user_modality_screen.html" title=" " alt="" coords="121,173,305,200"/>
+<area shape="rect" id="node6" href="$class_country_user_screen.html" title=" " alt="" coords="146,224,281,251"/>
+<area shape="rect" id="node7" href="$class_login_screen.html" title=" " alt="" coords="166,275,261,301"/>
+<area shape="rect" id="node8" href="$class_medal_adm_update_screen.html" title=" " alt="" coords="130,325,297,352"/>
+<area shape="rect" id="node9" href="$class_modality_adm_screen.html" title=" " alt="" coords="144,376,283,403"/>
+<area shape="rect" id="node10" href="$class_modality_user_screen.html" title=" " alt="" coords="144,427,283,453"/>
+</map>
