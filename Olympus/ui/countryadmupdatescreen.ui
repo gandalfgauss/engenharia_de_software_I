@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CountryAdmUpdateScreen</class>
+ <widget class="QDialog" name="CountryAdmUpdateScreen">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QLabel" name="label_nameCountry">
+     <property name="text">
+      <string>Nome Pais</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="1" colspan="2">
+    <widget class="QLabel" name="label_continentCountry">
+     <property name="text">
+      <string>Continente</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0" colspan="2">
+    <widget class="QPushButton" name="btn_boardModality">
+     <property name="text">
+      <string>Quadro de Modalidades</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="2" rowspan="2">
+    <widget class="QPushButton" name="btn_addModality">
+     <property name="text">
+      <string>Adicionar</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="0" rowspan="6" colspan="2">
+    <widget class="QListWidget" name="listWidget"/>
+   </item>
+   <item row="3" column="2">
+    <widget class="QLabel" name="label">
+     <property name="text">
+      <string>Nome</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="2">
+    <widget class="QLineEdit" name="lineEdit_nameModality"/>
+   </item>
+   <item row="5" column="2">
+    <widget class="QPushButton" name="btn_updateModality">
+     <property name="text">
+      <string>Atualizar</string>
+     </property>
+    </widget>
+   </item>
+   <item row="6" column="2">
+    <widget class="QPushButton" name="btn_removeModality">
+     <property name="text">
+      <string>Remover</string>
+     </property>
+    </widget>
+   </item>
+   <item row="7" column="2">
+    <widget class="QPushButton" name="btn_medals">
+     <property name="text">
+      <string>Medalhas</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

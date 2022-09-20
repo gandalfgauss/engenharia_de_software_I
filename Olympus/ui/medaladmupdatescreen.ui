@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MedalAdmUpdateScreen</class>
+ <widget class="QDialog" name="MedalAdmUpdateScreen">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="6" column="3">
+    <widget class="QPushButton" name="btn_updateMedal">
+     <property name="text">
+      <string>Atualizar</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="2" colspan="2">
+    <widget class="QLabel" name="label_2">
+     <property name="text">
+      <string>Medalha</string>
+     </property>
+    </widget>
+   </item>
+   <item row="7" column="3">
+    <widget class="QPushButton" name="btn_removeMedal">
+     <property name="text">
+      <string>Remover</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="1" colspan="2">
+    <widget class="QLabel" name="label_modality">
+     <property name="text">
+      <string>Modalidade</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="3">
+    <widget class="QPushButton" name="btn_addMedal">
+     <property name="text">
+      <string>Adicionar</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="2" colspan="2">
+    <widget class="QLabel" name="label">
+     <property name="text">
+      <string>Campeão</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="0" rowspan="6" colspan="2">
+    <widget class="QListWidget" name="listWidget">
+     <property name="font">
+      <font>
+       <family>Courier</family>
+       <pointsize>8</pointsize>
+      </font>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <widget class="QPushButton" name="btn_boardMedal">
+     <property name="text">
+      <string>Quadro de Medalhas</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="2" colspan="2">
+    <widget class="QLineEdit" name="lineEdit_champion"/>
+   </item>
+   <item row="0" column="0">
+    <widget class="QLabel" name="label_country">
+     <property name="text">
+      <string>Pais</string>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="2">
+    <widget class="QComboBox" name="comboBox"/>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
